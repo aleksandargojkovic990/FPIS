@@ -1,0 +1,13 @@
+#home h2 {
+    color: #753138;
+}
+
+#btnFONdrum {
+    background-color: #753138;
+    color: #FFF;
+    transition: transform 0.3s ease-in-out;
+}
+
+#btnFONdrum:hover {
+    transform: scale(1.1);
+}

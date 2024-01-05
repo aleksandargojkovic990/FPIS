@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FPIS_projekat_aplikacija.props" />
+</Project>

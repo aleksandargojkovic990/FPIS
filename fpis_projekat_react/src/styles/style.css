@@ -1,0 +1,91 @@
+#root
+{
+    min-width: 100%;
+    padding: 0 50px;
+    margin: 0;
+    min-height: 800px;
+}
+
+#wine-sort, #wine-style, #cart, .wine {
+    border: 1px solid #753138;
+}
+
+h4, h5, h6
+{
+    text-align: center;
+    color: #753138;
+}
+
+#wine-style label
+{
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+    display: inline !important;
+}
+
+#wines .wine-style:active
+{
+    overflow: visible !important;
+    text-overflow: initial !important;
+    white-space: inherit !important;
+}
+
+.wine-description {
+    text-align: justify;
+}
+
+.message-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    text-align: center;
+  }
+  
+.message {
+    background-color: #4caf50;
+    opacity: 0.8;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+@media only screen and (min-width: 768px) 
+{
+    .sticky-wine-sort 
+    {
+        position: sticky;
+        top: 226px;
+        z-index: 100;
+    }
+
+    .sticky-wine-style, #cart
+    {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+}
+
+@media only screen and (max-width: 767px) 
+{
+    #cart-holder
+    {
+        padding-left: 4px;
+    }
+}
+
+@media only screen and (max-width: 1199px) 
+{
+    #cart-holder
+    {
+        padding-right: 4px;
+    }
+
+    .cart-on-screen
+    {
+        position: static !important;
+    }
+}
+

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FPIS_projekat_aplikacija.props" />
+</Project>

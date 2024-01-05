@@ -1,0 +1,49 @@
+/* _content/FPIS_projekat_aplikacija/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-eie12be4vo] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-eie12be4vo] {
+  color: #0077cc;
+}
+
+.btn-primary[b-eie12be4vo] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-eie12be4vo], .nav-pills .show > .nav-link[b-eie12be4vo] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-eie12be4vo] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-eie12be4vo] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-eie12be4vo] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-eie12be4vo] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-eie12be4vo] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
